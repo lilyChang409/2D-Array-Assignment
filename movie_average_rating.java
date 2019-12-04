@@ -11,7 +11,8 @@ public class movie_average_rating
     }
     public static void check(){
           int [][]avg={{4,6,2,5},{7,9,4,8},{6,9,3,7}};
-        int a =2;
-    System.out.print(movieAvgRating(avg,a));
+        int movie=2;
+        int rate=movieAvgRating(avg,movie);
+    System.out.print("movie"+movie+"'s average is:"+rate);
     }
 }
